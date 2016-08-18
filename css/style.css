@@ -1,0 +1,81 @@
+body{
+	height: 100vh;
+}
+
+.box{
+	display: flex;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+/* Estilos Propios*/
+.btn{
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+	text-align: center;
+	font-family: 'Open Sans';
+	font-size: 16px;
+	font-weight: 300;
+	height: 40px;
+	line-height: 40px;
+	width: 150px;
+	margin: 5px;
+	transition: all 0.5s;
+}
+.btn:hover{
+	transition: all 0.5s;
+}
+
+
+/* Utilidades para Redondear Bordes */
+.u-btnRoundSmall{
+	border-radius: 5px;
+}
+.u-btnRoundBig{
+	border-radius: 150px;
+}
+
+
+/* Colores*/
+.btn-ColorOrange{
+	background-color: #FFA726;
+}
+.btn-ColorOrange:hover{
+	background-color: #FFB447;
+}
+.btn-ColorGreen{
+	background-color: #7CB342;
+}
+.btn-ColorGreen:hover{
+	background-color: #90BE5E;
+}
+.btn-ColorBlue{
+	background-color: #29B6F6;
+}
+.btn-ColorBlue:hover{
+	background-color: #49C1F7;
+}
+
+.btn-ShadowOrange{
+	border-bottom: 4px solid #FB8C00;
+}
+.btn-ShadowOrange:hover{
+	border-bottom-color: #FC9D26;
+}
+.btn-ShadowGreen{
+	border-bottom: 4px solid #689F38;
+}
+.btn-ShadowGreen:hover{
+	border-bottom-color: #7FAD56;
+}
+.btn-ShadowBlue{
+	border-bottom: 4px solid #039BE5;
+}
+.btn-ShadowBlue:hover{
+	border-bottom-color: #29AAE9;
+}
